@@ -1,5 +1,5 @@
 # SMILE-Summer-Research 2019
-**Leader**: Dr. Fang <br> E-mail:ruogu.fang@bme.ufl.edu
+**Leader**: Dr. Fang <br> E-mail:ruogu.fang@bme.ufl.edu <br>
 **TA**: J.Q. Tian <br> E-mail:J.tian@ufl.edu
 **Member**: 
 - Z.J.Wang
