@@ -1,7 +1,9 @@
 # SMILE-Summer-Research 2019
+
 **Leader**: Dr. Fang <br> E-mail:ruogu.fang@bme.ufl.edu <br>
-**TA**: J.Q. Tian <br> E-mail:J.tian@ufl.edu
+**TA**: J.Q. Tian <br> E-mail:J.tian@ufl.edu<br>
 **Member**: 
+
 - Z.J.Wang
 - H.Guo
 - Z.h.Pan
@@ -9,27 +11,36 @@
 - S.Y.Xiong
 
 Our research starts from July 15 to Aug 23.And we mainly focus on using multimodal data to find correlation between retina and cognitive impairment.
----
+
 This repository is created for convenience of the materials & tutorials sharing. But for sake of the confidentiality, codes, private datasets and also some detialed files won`t be posted in this repository.
+
 ## Contents
 
 1. Notes
 2. Reference Mentioned in Handout
 3. Tutorials for Week 1
 4. Way to Server
----
+
+------
+
 ## 1. Notes
+
 > - Meeting on every Monday summarizing achievement and next week’s plan;
 > - After the first two weeks, we will have a mini-defense, please see the handout;
 > - Team up before the start of third week;
 > - No data can leave this lab, nor code;
----
+
+------
+
 ## 2. Reference Mentioned in Handout
+
 1. <https://www.mathworks.com/matlabcentral/fileexchange/50839-novel-retinal-vessel-segmentation-algorithm-fundus-images>
 2. [Abràmoff, Michael D., Mona K. Garvin, and Milan Sonka. "Retinal imaging and image analysis." IEEE reviews in biomedical engineering 3 (2010): 169-208.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3131209/)
 3. <https://paperswithcode.com/paper/recurrent-residual-convolutional-neural#code>
 4. [Farsiu Datasets](http://people.duke.edu/~sf59/RPEDC_Ophth_2013_dataset.htm)
----
+
+------
+
 ## 3. Tutorials for Week 1
 
 **Change of plan: since we started kinda late week, let's start with basic learning with retina and OCT images, which has less land for us to cover. What you need to grab from this week is:**
@@ -60,7 +71,9 @@ Especially, you need to pay attention to Lecture:
 If for some topic, you need to find some more lectures to clarify, you can find another course from MIT that is quite helpful
 <br>
 <https://www.youtube.com/watch?v=5v1JnYv_yWs&list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI><br>
+
  Especially, I strongly recommend you to take a look at their lesson for convolutional network (Lecture 3), and generative network (Lecture 4).
- ---
+
 ## 4. Way to Server
+
 Soon to come
