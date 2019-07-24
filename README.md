@@ -76,4 +76,36 @@ If for some topic, you need to find some more lectures to clarify, you can find 
 
 ## 4. Way to Server
 
-Soon to come
+1. Log in server with account by terminal
+
+   <br>
+
+   > > account_name: summer2019<br>
+
+   server: 10.15.224.253 <br>
+
+   command: `ssh summer2019@10.15.224.253`
+
+   
+
+2. Then activate jupyter notebook in the same terminal
+
+   command:`jupyter notebook --no-browser --port=8081`
+
+   *Notice: The port can be altered.*
+
+   
+
+3. Open another terminal, 
+
+   command: `ssh -f summer2019@10.15.225.64 -L 8081:localhost:8081 -N`
+
+   *Notice:The port should match with the portin the last procedure*
+
+   
+
+   
+
+   
+
+   
