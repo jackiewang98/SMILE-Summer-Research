@@ -42,3 +42,16 @@ All files are saved as .mat
    - output after concatenating all images of subjects: [.npy]
      - 'Control': (11400, 512, 1000)
      -  'AMD' : (26900, 512, 1000)
+   
+3. **Split train-valid-test sets**
+
+   - train:  87
+   
+     - valid: split from train set, by set the parameter
+   
+       ```python
+       # keras Model class API
+       model.fit(validation_split=0.0)
+       ```
+   - test: 88
+
