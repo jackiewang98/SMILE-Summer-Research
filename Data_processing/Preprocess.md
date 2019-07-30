@@ -47,7 +47,7 @@ All files are saved as .mat
 
    - Control subjects: 
    
-     - train:  0-87
+     - train:  [1001-1087]
      - valid: split from train set, by set the parameter
      
        ```python
@@ -55,7 +55,7 @@ All files are saved as .mat
        model.fit(validation_split=0.0)
        ```
      
-     - test: 88-115
+     - test: [1089-1115]
      
    - AMD subjects
 
