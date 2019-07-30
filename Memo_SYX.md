@@ -40,5 +40,5 @@ All files are saved as .mat
    - read all subject-files in order
    - delete the file 'control_subject_1088.mat'
    - output after concatenating all images of subjects: [.npy]
-     - 'Control': (11500, 512, 1000)
+     - 'Control': (11400, 512, 1000)
      -  'AMD' : (26900, 512, 1000)
