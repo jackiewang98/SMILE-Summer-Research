@@ -45,13 +45,17 @@ All files are saved as .mat
    
 3. **Split train-valid-test sets**
 
-   - train:  87
+   - Control subjects: 
    
+     - train:  87
      - valid: split from train set, by set the parameter
-   
+     
        ```python
        # keras Model class API
        model.fit(validation_split=0.0)
        ```
-   - test: 88
+     
+     - test: 88
+     
+   - AMD subjects
 
