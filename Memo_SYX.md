@@ -27,11 +27,11 @@ All files are saved as .mat
 
 1. **Transpose**
 
-   - former shaper: (W, H, D)
+   - former shape: (W, H, D)
 
      (512, 1000, 100)
 
-   - latter shaper: (D, W, H)
+   - latter shape: (D, W, H)
 
      (100,512,1000)
 
