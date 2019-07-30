@@ -46,6 +46,7 @@ All files are saved as .mat
 3. **Split train-valid-test sets**
 
    - Control subjects: 
+   split for 'images' and 'Ages'
    
      - train:  [1001-1087]
      - valid: split from train set, by set the parameter
