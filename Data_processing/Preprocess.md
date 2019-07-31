@@ -25,31 +25,38 @@ All files are saved as .mat
 
 ## Pre-requisition of data-generator
 
+processing for 'images' , 'Ages' and 'layerMaps'
+
 1. **Transpose**
 
    - former shape: (W, H, D)
 
-     (512, 1000, 100)
+     - OCT images: (512, 1000, 100)
+     - layermaps: (100, 1000, 3)
 
    - latter shape: (D, W, H)
 
-     (100,512,1000)
+     - OCT: images(100,512,1000)
+     - layermaps: (3,100, 1000)
 
 2. **Concatenate**
 
    - read all subject-files in order
-   - delete the file 'control_subject_1088.mat'
+   - ignore the file 'control_subject_1088.mat' (the file is not put in the train-test set)
    - output after concatenating all images of subjects: [.npy]
-     - 'Control': (11400, 512, 1000)
-     -  'AMD' : (26900, 512, 1000)
+     - 'Control': 
+       - images: (11400, 512, 1000)
+       - layermaps: 3 * (114, 100, 1000)
+     - 'AMD' :
+       - images: (26900, 512, 1000)
+       - layermaps: 3 * (269, 100, 1000)
    
 3. **Split train-valid-test sets**
 
    - Control subjects: 
-   split for 'images' and 'Ages'
    
-     - train:  [1001-1087]
-     - valid: split from train set, by set the parameter
+   - train:  [1001-1087]
+     - valid: splited from train set, by set the parameter
      
        ```python
        # keras Model class API
