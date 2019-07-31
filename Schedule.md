@@ -10,4 +10,4 @@
 
 # Material
 
-1. 
+1. https://appsrv.cse.cuhk.edu.hk/~lqyu/papers/AAAI17_Prostate.pdf
