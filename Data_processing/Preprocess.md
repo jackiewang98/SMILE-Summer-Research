@@ -46,10 +46,12 @@ processing for 'images' , 'Ages' and 'layerMaps'
    - output after concatenating all images of subjects: [.npy]
      - 'Control': 
        - images: (11400, 512, 1000)
-       - layermaps: 3 * (114, 100, 1000)
+       - layermaps: (114, 100, 1000, 3)
+       - ages: (114, )
      - 'AMD' :
        - images: (26900, 512, 1000)
-       - layermaps: 3 * (269, 100, 1000)
+       - layermaps: (269, 100, 1000, 3)
+       - ages: (269, )
    
 3. **Split train-valid-test sets**
 
