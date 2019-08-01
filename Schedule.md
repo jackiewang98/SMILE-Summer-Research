@@ -13,6 +13,7 @@
 1. **pdf**
    - https://appsrv.cse.cuhk.edu.hk/~lqyu/papers/AAAI17_Prostate.pdf
 2. **code in github**
+   - https://github.com/JihongJu/keras-resnet3d
    - https://github.com/ellisdg/3DUnetCNN
    - https://github.com/kenshohara/3D-ResNets-PyTorch
    - https://github.com/deepmedic/deepmedic
