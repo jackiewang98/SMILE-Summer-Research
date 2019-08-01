@@ -15,3 +15,4 @@
 2. **code in github**
    - https://github.com/ellisdg/3DUnetCNN
    - https://github.com/kenshohara/3D-ResNets-PyTorch
+   - https://github.com/deepmedic/deepmedic
